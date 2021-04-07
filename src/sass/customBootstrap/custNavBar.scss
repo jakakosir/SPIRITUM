@@ -1,0 +1,44 @@
+
+
+.navbar-brand {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 130px;
+    height: 70px;
+    background-color: white;
+    z-index: 101;
+    text-align: center;
+    @include media-breakpoint-up(sm) {
+      left: 40px;
+      width: 230px;
+      height: 120px;
+    }
+    @include media-breakpoint-up(lg) {
+      left: 80px;
+    }
+    @include media-breakpoint-up(xl) {
+      left: 300px;
+      width: 320px;
+      height: 160px;
+    }
+  
+    &__logo {
+      width: 130px;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      @include media-breakpoint-up(sm) {
+        width: 210px;
+      }
+      @include media-breakpoint-up(xl) {
+        width: 300px;
+      }
+    }
+  }
+  
+  .nav-link {
+      font-size: 1.2rem;
+  };
+
+  

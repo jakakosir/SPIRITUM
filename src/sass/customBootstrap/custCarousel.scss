@@ -1,0 +1,32 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .carousel-caption {
+    top: 58%;
+    transform: translateY(-50%);
+  }
+  
+  .btn {
+    @include media-breakpoint-up(sm) {
+      transform: scale(1.3);
+    }
+  }
+
+  #wellness {
+    background-image: url(./assets/images/wellness.jpg)
+  }
+
+  #tibetan {
+    background-image: url(./assets/images/tibetan.jpg);
+  }
+  
+  #massage {
+    background-image: url(./assets/images/massage.jpg);
+  }

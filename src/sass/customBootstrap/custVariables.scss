@@ -1,0 +1,49 @@
+
+
+$body-bg: rgba(92, 194, 51, 0.07); //custom body bg color
+
+$navbar-light-color: white; //custom color of links in navbar
+
+$dropdown-link-color: white; //custom color of links in dropdowns
+
+$navbar-light-toggler-border-color: white; //toggler border costum color
+
+$myPrimary: rgb(92, 194, 51); //custom theme colors
+$bgContainer: rgb(239, 252, 234);
+$myPurple: rgb(186, 115, 214);
+$theme-colors: (
+  myPrimary: $myPrimary,
+  bgContainer: $bgContainer,
+  myPurple:$myPurple
+);
+
+$spacers: (
+  6: (
+    $spacer * 3.5,
+  ),
+  7: (
+    $spacer * 4.5,
+  ),
+  8: (
+    $spacer * 5,
+  ),
+  9: (
+    $spacer * 5.5,
+  ),
+  10: (
+    $spacer * 6,
+  ),
+);
+
+$navbar-light-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+
+$carousel-indicator-width: 55px;
+$carousel-indicator-height: 2px;
+
+$card-border-color: none;
+$card-bg: $body-bg;
+
+///////////////custom link colors///////////////////////////////////
+$link-color:rgb(60,128,51);
+$link-hover-color:rgb(60,128,51);
+$link-hover-decoration: none;

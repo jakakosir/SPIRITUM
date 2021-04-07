@@ -1,0 +1,33 @@
+h1 {
+    font-family: "Open Sans Condensed", sans-serif;
+    letter-spacing: 4px;
+    color: $myPrimary;
+  }
+  
+  p {
+    line-height: 1.5rem;
+    letter-spacing: 1.3px;
+    font-weight: 300;
+  
+    @include media-breakpoint-up(sm) {
+      font-size: 1.1rem;
+      line-height: 1.8rem;
+      letter-spacing: 1.6px;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 1.2rem;
+      line-height: 2rem;
+      letter-spacing: 1.8px;
+    }
+  }
+  
+  .bold {
+    font-weight: 700;
+  
+    @include media-breakpoint-up(sm) {
+      font-size: 3rem;
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 4rem;
+    }
+  }
