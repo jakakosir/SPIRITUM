@@ -4,7 +4,10 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: "./src/app.js",
+  entry: {
+    main:"./src/app.js",
+  },
+
 
   plugins: [
     new HtmlWebpackPlugin({

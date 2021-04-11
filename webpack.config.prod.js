@@ -7,9 +7,9 @@ const { merge } = require("webpack-merge");
 module.exports = merge(common, {
   mode: "production",
   output: {
-    filename: "bundled.[contenthash].js",
+    filename: "[name].[contenthash].bundled.js",
     path: path.resolve(__dirname, "dist"),
-    assetModuleFilename: "images/[hash][ext][query]",
+    assetModuleFilename: "images/[name][hash][ext][query]",
     clean: true,
   },
 });
