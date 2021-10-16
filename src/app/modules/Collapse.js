@@ -1,6 +1,6 @@
-import $ from 'jquery';
+import $ from "jquery";
 
-$(document).ready(function () {
+ $(document).ready(function () {
     $("#collapsMonika").on("shown.bs.collapse", function () {
       $("#extendMonika").text("Manj...");
     });
@@ -8,4 +8,6 @@ $(document).ready(function () {
     $("#collapsMonika").on("hidden.bs.collapse", function () {
       $("#extendMonika").text("Več...");
     });
-  });
+  }); 
+
+
